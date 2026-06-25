@@ -1,0 +1,23 @@
+# Secrets / environment
+.env
+.env.*
+*.key
+*.pem
+*.pfx
+*.p12
+credentials
+credentials.*
+secrets.*
+
+# Dependencies / build output
+node_modules/
+dist/
+build/
+
+# Local tooling / editor / OS noise
+.claude/
+.vscode/
+.idea/
+*.log
+Thumbs.db
+.DS_Store
