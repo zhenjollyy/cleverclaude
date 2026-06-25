@@ -13,6 +13,7 @@ A single-page marketing website for **Sterling &amp; Vale Advisory**, a (fiction
 - Services / about section
 - Testimonials carousel (auto-rotating, with generated dots)
 - Lead-magnet enquiry section: a "free Wealth Strategy Review" offer with benefit checklist and social proof, paired with a form (client-side validation + spam honeypot, posts via [FormSubmit](https://formsubmit.co/))
+- Floating WhatsApp chat widget (bottom-right) with suggested questions that open a pre-filled WhatsApp message to the firm
 - Royal-amethyst design system — all colours driven from `:root` custom properties
 - SEO: descriptive meta tags, Open Graph / Twitter cards, `FinancialService` JSON-LD structured data, plus `robots.txt` and `sitemap.xml`
 - Scroll-reveal animations via `IntersectionObserver`
@@ -47,3 +48,9 @@ The site auto-deploys to **GitHub Pages** on every push to `main` via the workfl
 The form POSTs JSON to FormSubmit's AJAX endpoint. The destination address is the `FORMSUBMIT_EMAIL`
 constant near the top of `script.js`. Note: the first submission to a new address triggers a one-time
 FormSubmit activation email -- messages are not delivered until that link is clicked.
+
+## WhatsApp widget
+
+A floating launcher in the bottom-right opens a chat panel with suggested questions; each opens WhatsApp
+with a pre-filled message. The destination number is the `WHATSAPP_NUMBER` constant near the top of
+`script.js` -- change it there.
