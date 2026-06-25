@@ -4,6 +4,8 @@ A single-page marketing website for **Sterling &amp; Vale Advisory**, a (fiction
 
 **Live site:** https://zhenjollyy.github.io/cleverclaude/
 
+![Sterling & Vale Advisory — homepage](assets/screenshot.png)
+
 ## Features
 
 - Sticky navigation bar with a mobile hamburger menu
