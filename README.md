@@ -1,6 +1,6 @@
 # Sterling &amp; Vale Advisory
 
-A single-page marketing website for **Sterling &amp; Vale Advisory**, a (fictional) wealth-management firm. Built with vanilla HTML, CSS, and JavaScript -- no frameworks, no build tools, no dependencies (apart from Google Fonts).
+A single-page marketing website for **Sterling &amp; Vale Advisory**, a (fictional) wealth-management firm. Built with vanilla HTML, CSS, and JavaScript -- no frameworks, no build tools, no dependencies (apart from Google Fonts). Features a royal-amethyst theme and a lead-magnet enquiry section offering a free Wealth Strategy Review.
 
 **Live site:** https://zhenjollyy.github.io/cleverclaude/
 
@@ -9,10 +9,12 @@ A single-page marketing website for **Sterling &amp; Vale Advisory**, a (fiction
 ## Features
 
 - Sticky navigation bar with a mobile hamburger menu
-- Full-height hero section
+- Full-height hero section with a clear call to action
 - Services / about section
 - Testimonials carousel (auto-rotating, with generated dots)
-- Enquiry form with client-side validation and spam honeypot (posts via [FormSubmit](https://formsubmit.co/))
+- Lead-magnet enquiry section: a "free Wealth Strategy Review" offer with benefit checklist and social proof, paired with a form (client-side validation + spam honeypot, posts via [FormSubmit](https://formsubmit.co/))
+- Royal-amethyst design system — all colours driven from `:root` custom properties
+- SEO: descriptive meta tags, Open Graph / Twitter cards, `FinancialService` JSON-LD structured data, plus `robots.txt` and `sitemap.xml`
 - Scroll-reveal animations via `IntersectionObserver`
 - Fully responsive (mobile-first) and respects `prefers-reduced-motion`
 
@@ -23,6 +25,7 @@ A single-page marketing website for **Sterling &amp; Vale Advisory**, a (fiction
 | `index.html` | Semantic page structure (navbar, hero, services, testimonials, form). |
 | `styles.css` | All styling. Design tokens live in `:root` custom properties.         |
 | `script.js`  | Interactivity, organized as small self-contained IIFEs.               |
+| `robots.txt` / `sitemap.xml` | SEO crawl directives and sitemap for search engines.  |
 
 ## Running locally
 

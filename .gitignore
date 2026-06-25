@@ -16,6 +16,7 @@ build/
 
 # Local tooling / editor / OS noise
 .claude/
+.mcp.json
 .vscode/
 .idea/
 *.log

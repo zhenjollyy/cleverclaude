@@ -253,7 +253,7 @@ const prefersReducedMotion = window.matchMedia(
       phone: form.phone.value.trim(),
       interest: form.interest.value,
       message: form.message.value.trim(),
-      _subject: "New enquiry from Sterling & Vale website",
+      _subject: "New free-review request from Sterling & Vale website",
       _template: "table",
       _captcha: "false",
     };

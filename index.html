@@ -3,8 +3,30 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <meta name="description" content="Sterling & Vale Advisory — calm, considered wealth management for professionals and families seeking to grow and protect what matters." />
-  <title>Sterling &amp; Vale Advisory — Wealth Management</title>
+
+  <!-- Primary SEO -->
+  <title>Private Wealth Management | Sterling &amp; Vale Advisory</title>
+  <meta name="description" content="Independent wealth management for professionals and families. Claim a free, no-obligation Wealth Strategy Review and get a clear plan to grow and protect your wealth." />
+  <meta name="keywords" content="wealth management, financial advisor, retirement planning, portfolio management, estate planning, investment advisory" />
+  <meta name="author" content="Sterling & Vale Advisory" />
+  <meta name="robots" content="index, follow, max-image-preview:large" />
+  <meta name="theme-color" content="#1c1033" />
+  <link rel="canonical" href="https://zhenjollyy.github.io/cleverclaude/" />
+
+  <!-- Open Graph (Facebook / LinkedIn) -->
+  <meta property="og:type" content="website" />
+  <meta property="og:site_name" content="Sterling & Vale Advisory" />
+  <meta property="og:title" content="Claim a Free Wealth Strategy Review | Sterling & Vale Advisory" />
+  <meta property="og:description" content="Independent wealth management for professionals and families. Book a free, no-obligation Wealth Strategy Review and walk away with a clear, written plan." />
+  <meta property="og:url" content="https://zhenjollyy.github.io/cleverclaude/" />
+  <meta property="og:image" content="https://zhenjollyy.github.io/cleverclaude/assets/screenshot.png" />
+  <meta property="og:image:alt" content="Sterling & Vale Advisory homepage" />
+
+  <!-- Twitter card -->
+  <meta name="twitter:card" content="summary_large_image" />
+  <meta name="twitter:title" content="Claim a Free Wealth Strategy Review | Sterling & Vale Advisory" />
+  <meta name="twitter:description" content="Independent wealth management for professionals and families. Book a free, no-obligation Wealth Strategy Review." />
+  <meta name="twitter:image" content="https://zhenjollyy.github.io/cleverclaude/assets/screenshot.png" />
 
   <!-- Google Fonts: Playfair Display (headings) + Inter (body) -->
   <link rel="preconnect" href="https://fonts.googleapis.com" />
@@ -15,6 +37,38 @@
   />
 
   <link rel="stylesheet" href="styles.css" />
+
+  <!-- Structured data: ProfessionalService + the free-review offer (rich results) -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "FinancialService",
+    "name": "Sterling & Vale Advisory",
+    "description": "Independent wealth management for professionals and families seeking to grow and protect their wealth across generations.",
+    "url": "https://zhenjollyy.github.io/cleverclaude/",
+    "image": "https://zhenjollyy.github.io/cleverclaude/assets/screenshot.png",
+    "priceRange": "$$$",
+    "areaServed": "Worldwide",
+    "serviceType": [
+      "Wealth Planning",
+      "Retirement Strategy",
+      "Portfolio Management",
+      "Estate Planning"
+    ],
+    "makesOffer": {
+      "@type": "Offer",
+      "name": "Complimentary Wealth Strategy Review",
+      "description": "A free, no-obligation 45-minute review with a senior adviser, including a written plan of next steps.",
+      "price": "0",
+      "priceCurrency": "USD"
+    },
+    "aggregateRating": {
+      "@type": "AggregateRating",
+      "ratingValue": "4.9",
+      "reviewCount": "400"
+    }
+  }
+  </script>
 </head>
 <body>
   <!-- ============================ NAVBAR ============================ -->
@@ -41,7 +95,7 @@
         <li><a href="#home" class="nav-link">Home</a></li>
         <li><a href="#about" class="nav-link">About</a></li>
         <li><a href="#testimonials" class="nav-link">Testimonials</a></li>
-        <li><a href="#contact" class="nav-link nav-link--cta">Contact</a></li>
+        <li><a href="#contact" class="nav-link nav-link--cta">Free Review</a></li>
       </ul>
     </nav>
   </header>
@@ -58,9 +112,10 @@
           lasting wealth across generations.
         </p>
         <div class="hero-actions reveal">
-          <a href="#contact" class="btn btn--primary">Book a Consultation</a>
+          <a href="#contact" class="btn btn--primary">Claim your free Wealth Review</a>
           <a href="#about" class="btn btn--ghost">Explore Our Services</a>
         </div>
+        <p class="hero-reassure reveal">Complimentary &amp; confidential · No obligation · Reply within one business day</p>
 
         <!-- Trust stats -->
         <dl class="hero-stats reveal" aria-label="Firm highlights">
@@ -220,83 +275,123 @@
       </div>
     </section>
 
-    <!-- ========================== ENQUIRY ========================== -->
+    <!-- ===================== LEAD MAGNET / ENQUIRY ===================== -->
     <section class="contact" id="contact" aria-labelledby="contact-title">
       <div class="container contact-inner">
-        <header class="section-head section-head--left reveal">
-          <p class="section-eyebrow">Get in touch</p>
-          <h2 class="section-title" id="contact-title">Book a consultation</h2>
-          <p class="section-lead">
-            Tell us a little about your goals and we'll arrange a confidential,
-            no-obligation conversation.
+        <!-- Offer column: the value the visitor receives for enquiring -->
+        <div class="offer reveal">
+          <p class="offer-badge">Free · No obligation · Limited each month</p>
+          <h2 class="section-title" id="contact-title">
+            Claim your complimentary Wealth Strategy Review
+          </h2>
+          <p class="offer-lead">
+            Spend 45 focused minutes with a senior adviser and walk away with a
+            clear, written plan to grow and protect your wealth — yours to keep,
+            whether or not we ever work together.
           </p>
-        </header>
+
+          <ul class="offer-list">
+            <li>
+              <span class="offer-check" aria-hidden="true">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><path d="M20 6L9 17l-5-5" /></svg>
+              </span>
+              <span><strong>An honest read on where you stand</strong> — your current position, mapped in plain English.</span>
+            </li>
+            <li>
+              <span class="offer-check" aria-hidden="true">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><path d="M20 6L9 17l-5-5" /></svg>
+              </span>
+              <span><strong>Three tailored opportunities</strong> to grow capital and reduce avoidable risk.</span>
+            </li>
+            <li>
+              <span class="offer-check" aria-hidden="true">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><path d="M20 6L9 17l-5-5" /></svg>
+              </span>
+              <span><strong>A one-page summary of next steps</strong> — no jargon, no pressure to commit.</span>
+            </li>
+          </ul>
+
+          <p class="offer-proof">
+            <span class="offer-stars" aria-hidden="true">★★★★★</span>
+            Trusted by 400+ professionals and families · 98% stay with us year after year.
+          </p>
+        </div>
 
         <!--
-          FormSubmit AJAX form.
+          FormSubmit AJAX form, framed as the lead-magnet claim form.
           ACTIVATION: The first submission to a new email address triggers a one-time
           confirmation email from FormSubmit. The form only delivers messages AFTER you
-          click that activation link. Replace REPLACE_WITH_YOUR_EMAIL in script.js first.
+          click that activation link. The destination address lives in script.js.
         -->
-        <form class="enquiry-form reveal" id="enquiryForm" novalidate>
-          <!-- Honeypot: kept empty + hidden; bots that fill it are rejected. -->
-          <input type="text" name="_honey" class="honey" tabindex="-1" autocomplete="off" aria-hidden="true" />
+        <div class="form-card reveal">
+          <p class="form-card-head">Claim your free review</p>
+          <p class="form-card-sub">Takes under a minute. A senior adviser replies within one business day.</p>
 
-          <div class="field">
-            <label for="name">Full name <span class="req" aria-hidden="true">*</span></label>
-            <input type="text" id="name" name="name" autocomplete="name"
-              required aria-required="true" aria-describedby="name-error" />
-            <p class="field-error" id="name-error" role="alert"></p>
-          </div>
+          <form class="enquiry-form" id="enquiryForm" novalidate>
+            <!-- Honeypot: kept empty + hidden; bots that fill it are rejected. -->
+            <input type="text" name="_honey" class="honey" tabindex="-1" autocomplete="off" aria-hidden="true" />
 
-          <div class="field-row">
             <div class="field">
-              <label for="email">Email <span class="req" aria-hidden="true">*</span></label>
-              <input type="email" id="email" name="email" autocomplete="email"
-                required aria-required="true" aria-describedby="email-error" />
-              <p class="field-error" id="email-error" role="alert"></p>
+              <label for="name">Full name <span class="req" aria-hidden="true">*</span></label>
+              <input type="text" id="name" name="name" autocomplete="name"
+                required aria-required="true" aria-describedby="name-error" />
+              <p class="field-error" id="name-error" role="alert"></p>
+            </div>
+
+            <div class="field-row">
+              <div class="field">
+                <label for="email">Email <span class="req" aria-hidden="true">*</span></label>
+                <input type="email" id="email" name="email" autocomplete="email"
+                  required aria-required="true" aria-describedby="email-error" />
+                <p class="field-error" id="email-error" role="alert"></p>
+              </div>
+
+              <div class="field">
+                <label for="phone">Phone <span class="optional">(optional)</span></label>
+                <input type="tel" id="phone" name="phone" autocomplete="tel"
+                  aria-describedby="phone-error" />
+                <p class="field-error" id="phone-error" role="alert"></p>
+              </div>
             </div>
 
             <div class="field">
-              <label for="phone">Phone <span class="optional">(optional)</span></label>
-              <input type="tel" id="phone" name="phone" autocomplete="tel"
-                aria-describedby="phone-error" />
-              <p class="field-error" id="phone-error" role="alert"></p>
+              <label for="interest">What would you like to focus on?</label>
+              <select id="interest" name="interest">
+                <option value="Wealth Planning">Wealth Planning</option>
+                <option value="Retirement">Retirement</option>
+                <option value="Portfolio Management">Portfolio Management</option>
+                <option value="Estate Planning">Estate Planning</option>
+                <option value="Other">Other</option>
+              </select>
             </div>
+
+            <div class="field">
+              <label for="message">Anything we should know before your review? <span class="req" aria-hidden="true">*</span></label>
+              <textarea id="message" name="message" rows="4"
+                placeholder="A sentence or two about your goals is plenty."
+                required aria-required="true" aria-describedby="message-error"></textarea>
+              <p class="field-error" id="message-error" role="alert"></p>
+            </div>
+
+            <button type="submit" class="btn btn--primary btn--block" id="submitBtn">
+              Claim my free review →
+            </button>
+
+            <p class="form-fineprint">
+              🔒 Confidential. No spam, ever — your details are used only to arrange your review.
+            </p>
+
+            <p class="form-status" id="formStatus" role="status" aria-live="polite"></p>
+          </form>
+
+          <!-- Success message (revealed by JS, replaces the form) -->
+          <div class="form-success" id="formSuccess" hidden role="status" tabindex="-1">
+            <span class="success-icon" aria-hidden="true">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M20 6L9 17l-5-5" /></svg>
+            </span>
+            <h3>Your review is reserved</h3>
+            <p>Thank you — a senior adviser will be in touch within one business day to arrange your complimentary Wealth Strategy Review.</p>
           </div>
-
-          <div class="field">
-            <label for="interest">Investment interest</label>
-            <select id="interest" name="interest">
-              <option value="Wealth Planning">Wealth Planning</option>
-              <option value="Retirement">Retirement</option>
-              <option value="Portfolio Management">Portfolio Management</option>
-              <option value="Estate Planning">Estate Planning</option>
-              <option value="Other">Other</option>
-            </select>
-          </div>
-
-          <div class="field">
-            <label for="message">Message <span class="req" aria-hidden="true">*</span></label>
-            <textarea id="message" name="message" rows="5"
-              required aria-required="true" aria-describedby="message-error"></textarea>
-            <p class="field-error" id="message-error" role="alert"></p>
-          </div>
-
-          <button type="submit" class="btn btn--primary btn--block" id="submitBtn">
-            Send Enquiry
-          </button>
-
-          <p class="form-status" id="formStatus" role="status" aria-live="polite"></p>
-        </form>
-
-        <!-- Success message (revealed by JS, replaces the form) -->
-        <div class="form-success" id="formSuccess" hidden role="status" tabindex="-1">
-          <span class="success-icon" aria-hidden="true">
-            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M20 6L9 17l-5-5" /></svg>
-          </span>
-          <h3>Thank you</h3>
-          <p>Thanks — we'll be in touch within one business day.</p>
         </div>
       </div>
     </section>
